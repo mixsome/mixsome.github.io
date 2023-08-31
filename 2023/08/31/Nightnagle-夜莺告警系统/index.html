@@ -1,26 +1,22 @@
+
+
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="zh-Hans" data-default-color-scheme=auto>
+
+
+
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 6.3.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
-
-  <meta name="description" content="Nightingale 夜莺与告警系统前言夜莺监控是一款开源云原生观测分析工具，采用 All-in-One 的设计理念，集数据采集、可视化、监控告警、数据分析于一体，与云原生生态紧密集成，提供开箱即用的企业级监控分析和告警能力。它支持管理多个时序库，支持可视化的灵活告警策略同时适配多个集群，支持监控的能力开放给公司所有研发团队，让研发团队自助服务。在这些场景下，夜莺监控是个不错的选择。 选择夜莺监">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="Nightingale 夜莺与告警系统前言夜莺监控是一款开源云原生观测分析工具，采用 All-in-One 的设计理念，集数据采集、可视化、监控告警、数据分析于一体，与云原生生态紧密集成，提供开箱即用的企业级监控分析和告警能力。它支持管理多个时序库，支持可视化的灵活告警策略同时适配多个集群，支持监控的能力开放给公司所有研发团队，让研发团队自助服务。在这些场景下，夜莺监控是个不错的选择。 选择夜莺监">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Nightnagle 夜莺告警系统">
 <meta property="og:url" content="http://example.com/2023/08/31/Nightnagle-%E5%A4%9C%E8%8E%BA%E5%91%8A%E8%AD%A6%E7%B3%BB%E7%BB%9F/index.html">
@@ -47,166 +43,254 @@
 <meta property="article:published_time" content="2023-08-31T02:41:45.000Z">
 <meta property="article:modified_time" content="2023-08-31T02:42:54.792Z">
 <meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/uploads/qe1313131/images/m_9f53b6bc86a11874b8be9a36ffa2d609_r.png">
+  
+  
+  
+  <title>Nightnagle 夜莺告警系统 - Hexo</title>
 
-<link rel="canonical" href="http://example.com/2023/08/31/Nightnagle-%E5%A4%9C%E8%8E%BA%E5%91%8A%E8%AD%A6%E7%B3%BB%E7%BB%9F/">
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
 
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : false,
-    isPost : true,
-    lang   : 'zh-Hans'
-  };
-</script>
 
-  <title>Nightnagle 夜莺告警系统 | Hexo</title>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
   
 
 
 
 
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.5","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
 
 
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
 
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
 
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
+<body>
+  
 
-</head>
+  <header>
+    
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="تشغيل شريط التصفح">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Hexo</h1>
-      <span class="logo-line-after"><i></i></span>
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
     </a>
-  </div>
 
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Startseite</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archiv</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Kategorien</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Schlagwörter</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>Über</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
     </div>
   </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>الأرشيفات</a>
-
-  </li>
-  </ul>
 </nav>
 
+  
 
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Nightnagle 夜莺告警系统"></span>
+          
+        </div>
 
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-08-31 10:41" pubdate>
+          August 31, 2023 am
+        </time>
+      </span>
+    
+  </div>
 
-</div>
-    </header>
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          8.4k wörter
+        
+      </span>
+    
 
     
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          71 minuten
+        
+      </span>
+    
+
+    
+    
   </div>
 
 
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content post posts-expand">
-            
-
-    
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/08/31/Nightnagle-%E5%A4%9C%E8%8E%BA%E5%91%8A%E8%AD%A6%E7%B3%BB%E7%BB%9F/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          Nightnagle 夜莺告警系统
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">نُشر في</span>
-              
-
-              <time title="أُنشأ: 2023-08-31 10:41:45 / عُدل: 10:42:54" itemprop="dateCreated datePublished" datetime="2023-08-31T10:41:45+08:00">2023-08-31</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+        
+      </div>
 
       
-        <h1 id="Nightingale-夜莺与告警系统"><a href="#Nightingale-夜莺与告警系统" class="headerlink" title="Nightingale 夜莺与告警系统"></a>Nightingale 夜莺与告警系统</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>夜莺监控是一款开源云原生观测分析工具，采用 All-in-One 的设计理念，集数据采集、可视化、监控告警、数据分析于一体，与云原生生态紧密集成，提供开箱即用的企业级监控分析和告警能力。它支持管理多个时序库，支持可视化的灵活告警策略同时适配多个集群，支持监控的能力开放给公司所有研发团队，让研发团队自助服务。在这些场景下，夜莺监控是个不错的选择。</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">Nightnagle 夜莺告警系统</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h1 id="Nightingale-夜莺与告警系统"><a href="#Nightingale-夜莺与告警系统" class="headerlink" title="Nightingale 夜莺与告警系统"></a>Nightingale 夜莺与告警系统</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>夜莺监控是一款开源云原生观测分析工具，采用 All-in-One 的设计理念，集数据采集、可视化、监控告警、数据分析于一体，与云原生生态紧密集成，提供开箱即用的企业级监控分析和告警能力。它支持管理多个时序库，支持可视化的灵活告警策略同时适配多个集群，支持监控的能力开放给公司所有研发团队，让研发团队自助服务。在这些场景下，夜莺监控是个不错的选择。</p>
 <h2 id="选择夜莺监控的原因"><a href="#选择夜莺监控的原因" class="headerlink" title="选择夜莺监控的原因"></a>选择夜莺监控的原因</h2><p>通常来说，聊到监控系统绕不过的就是zabbix和prometheus。<br>Zabbix 是过去二十年里开源监控系统的代表作，有着广泛的用户基础，但由于架构在当前云原生时代的格格不入显得尤为辛苦，当你选择在容器架构下，把众多微服务的监控数据往 Zabbix 数据模型上套，会发现非常辛苦，甚至于很多时候根本都行不通。<br>以公司目前的生产环境为例。目前的zabbix是实体机部署，在主机数量和为1000台左右，监控器数量为200000左右，触发器数量7000上下的条件下由于关系型数据库的瓶颈限制已经出现多次查询超时导致数据无法刷新的情况。</p>
 <p>而prometheus在监控领域的已经成为事实上监控系统的代表。prometheus之后的任何一个告监控系统都兼容prometheus的数据模型。<br>prometheus由于使用的tsdb时序数据库，本身更适合监控数据的扩展。从测试结果来看，在硬件资源满足的情况下。prometheus 单实例在每秒采集 10万条监控数据的情况下，在数据处理和查询方面依然有着不错的性能表现；而在数据的长期存储方面，thanos和victoriametrics可以很好的解决这个问题。而在当前生产环境中，由于存在多大10余套的promethus like 实例。这也导致了使用和管理成本高的问题。<br>不过prometheus在公司当前生产环境的运行中，目前存在以下痛点：</p>
 <ul>
@@ -222,7 +306,7 @@
 <li>夜莺监控系统支持个人定制化告警，可以监控的能力开放给公司所有研发团队，让研发团队自助配置告警规则及查看历史告警，支持多种告警推送渠道，企业微信应用，企业微信机器人，邮箱，短信，电话。</li>
 </ol>
 <p>下面我们可以详细的看看夜莺监控系统和我们在实际生产环境对它做的告警改造集成。</p>
-<h2 id="系统架构"><a href="#系统架构" class="headerlink" title="系统架构"></a>系统架构</h2><p><img src="/uploads/qe1313131/images/m_9f53b6bc86a11874b8be9a36ffa2d609_r.png"><br>首先上图中间的飞鸟代表夜莺的核心进程 n9e （下文以 n9e 代替），它的集群方式非常简单只需部署多节点即可实现。</p>
+<h2 id="系统架构"><a href="#系统架构" class="headerlink" title="系统架构"></a>系统架构</h2><p><img src="/uploads/qe1313131/images/m_9f53b6bc86a11874b8be9a36ffa2d609_r.png" srcset="/img/loading.gif" lazyload><br>首先上图中间的飞鸟代表夜莺的核心进程 n9e （下文以 n9e 代替），它的集群方式非常简单只需部署多节点即可实现。</p>
 <p>对于 n9e 来说，它本身依赖的存储有两个</p>
 <ul>
 <li>Mysql : 存放配置类别信息，如用户，监控大盘，告警规则等</li>
@@ -235,214 +319,369 @@
 <li>Nightingale 把机器列表中操作系统、CPU 架构信息、CPU 利用率、内存利用率、时间偏移等元数据存储在 Redis 里</li>
 <li>Nightingale 把接收到的监控数据（时序数据）转发给后端时序库，时序库可以并行写入多个，比如 VictoriaMetrics、Prometheus、M3DB、Thanos 等</li>
 </ul>
-<p>可以看到夜莺的整体架构并不复杂，夜莺作为核心的告警引擎使用配置的规则实时进行监控查询。当然在有多个边缘机房和中心机房网络链路不是很好的情况下，需要添加n9e-edge(类似prometheus的 pushgateway)作为数据中转来做边缘下沉式混杂部署方案<br><img src="/uploads/qe1313131/images/m_f0bad17fff723f35912cce663334093b_r.png"></p>
+<p>可以看到夜莺的整体架构并不复杂，夜莺作为核心的告警引擎使用配置的规则实时进行监控查询。当然在有多个边缘机房和中心机房网络链路不是很好的情况下，需要添加n9e-edge(类似prometheus的 pushgateway)作为数据中转来做边缘下沉式混杂部署方案<br><img src="/uploads/qe1313131/images/m_f0bad17fff723f35912cce663334093b_r.png" srcset="/img/loading.gif" lazyload></p>
 <p>在边缘机房在和中心机房网络连接比较好的情况下，目标机器只需部署 Categraf，直连中心机房即可（公网一定要注意添加好安全相关配置）。</p>
 <p>可是当边缘机房和中心机房网络链路不是很好的情况下，除了目标机器部署 Categraf 外，还推荐把告警引擎（n9e-alert）和时序数据库一起下沉部署。n9e-alert 是 n9e 的一个只保留告警引擎模块的独立可执行程序</p>
 <p>当前公司生产环境部署的话，n9e 前面架设负载均衡（harpoxy或nginx都可以）。让 agent 通过负载均衡上报监控数据，上层访问 n9e 也通过负载均衡，这样 n9e 任何一个实例挂掉，不会影响到整个服务可用性，从而做到高可用。而且集群中多个 n9e 实例会均分告警规则，分片处理，从而可以处理更大量的告警规则。</p>
 <h2 id="部署问题汇总"><a href="#部署问题汇总" class="headerlink" title="部署问题汇总"></a>部署问题汇总</h2><p>1.Nightanagle夜莺监控系统V5及V6版本间的差异    –v5版本api，server模块在v6合并同一模块，官方暂无文档参考，接入生产环境数据源，配置高可用告警引擎。<br>2、官方提供的数据库初始化语句问题，MySQL8.0.20执行初始化SQL报错定位报错语句：insert into busi_group_member(busi_group_id, user_group_id, perm_flag) values(1, 1, “rw”);<br>报错信息：Unknown column ‘rw’ in ‘field list’<br>原因分析：”rw”使用了双引号<br>3、监控系统Bug问题导致异常崩溃   – 查询源码定位故障代码位置，调试后解决，提issue<br>例如<br>监控系统有时告警会出现“invalid memory address or nil pointer的日志报错，经定位是某个未初始化的变量，向官方提交pull request 后修复</p>
-<p><img src="/uploads/qe1313131/images/m_97591bfd9cd70fe41d21640fcd3febce_r.png"></p>
+<p><img src="/uploads/qe1313131/images/m_97591bfd9cd70fe41d21640fcd3febce_r.png" srcset="/img/loading.gif" lazyload></p>
 <p>5、部署VictoriaMetrics集群采集categraf客户端信息 –考虑VictoriaMetrics存储3个月历史数据，缓解prometheus压力</p>
 <p>总的来说，在部署过程中遇到的问题并不算多，大多是监控系统版本差异及少数代码bug的解决。</p>
-<h2 id="告警体系集成改造"><a href="#告警体系集成改造" class="headerlink" title="告警体系集成改造"></a>告警体系集成改造</h2><p>公司目前的告警架构如下<br><img src="/uploads/qe1313131/images/m_93b854b3c5b2ff5812555d17622fe26b_r.png"><br>夜莺告警系统的有独立告警系统并支持告警转发，所以可以很自然的接入告警系统，并提供多种特性。<br>为了接入当前告警系统，我们对夜莺的改造如下</p>
+<h2 id="告警体系集成改造"><a href="#告警体系集成改造" class="headerlink" title="告警体系集成改造"></a>告警体系集成改造</h2><p>公司目前的告警架构如下<br><img src="/uploads/qe1313131/images/m_93b854b3c5b2ff5812555d17622fe26b_r.png" srcset="/img/loading.gif" lazyload><br>夜莺告警系统的有独立告警系统并支持告警转发，所以可以很自然的接入告警系统，并提供多种特性。<br>为了接入当前告警系统，我们对夜莺的改造如下</p>
 <p>1、告警分组结构调整，根据个人-&gt;业务组-&gt;团队的结构实现个人或团队告警隔离。最小维度为业务组告警。</p>
-<p>2、告警信息无法通过告警中心发送     —首先全局转发告警至告警中心，通过relabel添加新tag字段，修改告警网关代码兼容告警中心解析夜莺告警功能<br>夜莺告警的数据格式：<br><img src="/uploads/qe1313131/images/m_ea8d8828eb5ffb9a05064ba3959e86c4_r.png"><br>告警中心增加对n9e告警的数据处理，增加告警次数及告警持续时间</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">def analyze_n9e_msg(post_data):</span><br><span class="line">    &#x27;&#x27;&#x27;  </span><br><span class="line">    &#x27;tags&#x27;: [</span><br><span class="line">        &#x27;host=172.20.34.71:9100&#x27;,</span><br><span class="line">        &#x27;instance=172.20.34.71:9100&#x27;,</span><br><span class="line">        &#x27;job=idc_node_exporter&#x27;,</span><br><span class="line">        &#x27;rulename=OutOfMemory&#x27;,</span><br><span class="line">        &#x27;tag=ops&#x27;,</span><br><span class="line">    ],&#x27;&#x27;&#x27;</span><br><span class="line">    subject = post_data[&quot;rule_name&quot;]</span><br><span class="line">    level = n9e_severity_level(post_data[&quot;severity&quot;])</span><br><span class="line">    notify_cur_number = post_data[&quot;notify_cur_number&quot;]</span><br><span class="line">    trigger_duration = seconds_to_hms(post_data[&quot;last_eval_time&quot;] - post_data[&quot;first_trigger_time&quot;])</span><br><span class="line">    problem_content = f&quot;PROBLEM 已持续时长: &#123;trigger_duration&#125; (第&#123;notify_cur_number&#125;次触发)&quot; if notify_cur_number &gt; 1 else f&quot;PROBLEM (第&#123;notify_cur_number&#125;次触发)&quot;</span><br><span class="line">    status = &quot;已恢复&quot; if post_data[&quot;is_recovered&quot;] else problem_content</span><br><span class="line">    detail = post_data.get(&quot;rule_note&quot;)</span><br><span class="line"></span><br><span class="line">    host, group = None, None</span><br><span class="line">    for _, v in enumerate(post_data[&quot;tags&quot;]):</span><br><span class="line">        if v.startswith(&quot;host=&quot;):</span><br><span class="line">            host = v.split(&quot;=&quot;)[1]</span><br><span class="line">        # 优先取值tag 中的group 其次取值：告警目标的group</span><br><span class="line">        if v.startswith(&quot;group=&quot;):</span><br><span class="line">            group = v.split(&quot;=&quot;)[1]</span><br><span class="line">    </span><br><span class="line">    msgs = []</span><br><span class="line">    # 优先取值tag 中的group 其次取值：告警目标的group</span><br><span class="line">    # msgs.append([group, host, level, status, subject, detail])</span><br><span class="line">    if group:</span><br><span class="line">        msgs.append([group, host, level, status, subject, detail])</span><br><span class="line">    elif post_data[&quot;notify_groups_obj&quot;]:</span><br><span class="line">        for notify_group in post_data[&quot;notify_groups_obj&quot;]:</span><br><span class="line">            group = notify_group[&quot;name&quot;]</span><br><span class="line">            msgs.append([group, host, level, status, subject, detail])</span><br><span class="line">    else:</span><br><span class="line">        msgs.append([group, host, level, status, subject, detail])</span><br><span class="line">    return msgs</span><br></pre></td></tr></table></figure>
+<p>2、告警信息无法通过告警中心发送     —首先全局转发告警至告警中心，通过relabel添加新tag字段，修改告警网关代码兼容告警中心解析夜莺告警功能<br>夜莺告警的数据格式：<br><img src="/uploads/qe1313131/images/m_ea8d8828eb5ffb9a05064ba3959e86c4_r.png" srcset="/img/loading.gif" lazyload><br>告警中心增加对n9e告警的数据处理，增加告警次数及告警持续时间</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">analyze_n9e_msg</span>(<span class="hljs-params">post_data</span>):<br>    <span class="hljs-string">&#x27;&#x27;&#x27;  </span><br><span class="hljs-string">    &#x27;tags&#x27;: [</span><br><span class="hljs-string">        &#x27;host=172.20.34.71:9100&#x27;,</span><br><span class="hljs-string">        &#x27;instance=172.20.34.71:9100&#x27;,</span><br><span class="hljs-string">        &#x27;job=idc_node_exporter&#x27;,</span><br><span class="hljs-string">        &#x27;rulename=OutOfMemory&#x27;,</span><br><span class="hljs-string">        &#x27;tag=ops&#x27;,</span><br><span class="hljs-string">    ],&#x27;&#x27;&#x27;</span><br>    subject = post_data[<span class="hljs-string">&quot;rule_name&quot;</span>]<br>    level = n9e_severity_level(post_data[<span class="hljs-string">&quot;severity&quot;</span>])<br>    notify_cur_number = post_data[<span class="hljs-string">&quot;notify_cur_number&quot;</span>]<br>    trigger_duration = seconds_to_hms(post_data[<span class="hljs-string">&quot;last_eval_time&quot;</span>] - post_data[<span class="hljs-string">&quot;first_trigger_time&quot;</span>])<br>    problem_content = <span class="hljs-string">f&quot;PROBLEM 已持续时长: <span class="hljs-subst">&#123;trigger_duration&#125;</span> (第<span class="hljs-subst">&#123;notify_cur_number&#125;</span>次触发)&quot;</span> <span class="hljs-keyword">if</span> notify_cur_number &gt; <span class="hljs-number">1</span> <span class="hljs-keyword">else</span> <span class="hljs-string">f&quot;PROBLEM (第<span class="hljs-subst">&#123;notify_cur_number&#125;</span>次触发)&quot;</span><br>    status = <span class="hljs-string">&quot;已恢复&quot;</span> <span class="hljs-keyword">if</span> post_data[<span class="hljs-string">&quot;is_recovered&quot;</span>] <span class="hljs-keyword">else</span> problem_content<br>    detail = post_data.get(<span class="hljs-string">&quot;rule_note&quot;</span>)<br><br>    host, group = <span class="hljs-literal">None</span>, <span class="hljs-literal">None</span><br>    <span class="hljs-keyword">for</span> _, v <span class="hljs-keyword">in</span> <span class="hljs-built_in">enumerate</span>(post_data[<span class="hljs-string">&quot;tags&quot;</span>]):<br>        <span class="hljs-keyword">if</span> v.startswith(<span class="hljs-string">&quot;host=&quot;</span>):<br>            host = v.split(<span class="hljs-string">&quot;=&quot;</span>)[<span class="hljs-number">1</span>]<br>        <span class="hljs-comment"># 优先取值tag 中的group 其次取值：告警目标的group</span><br>        <span class="hljs-keyword">if</span> v.startswith(<span class="hljs-string">&quot;group=&quot;</span>):<br>            group = v.split(<span class="hljs-string">&quot;=&quot;</span>)[<span class="hljs-number">1</span>]<br>    <br>    msgs = []<br>    <span class="hljs-comment"># 优先取值tag 中的group 其次取值：告警目标的group</span><br>    <span class="hljs-comment"># msgs.append([group, host, level, status, subject, detail])</span><br>    <span class="hljs-keyword">if</span> group:<br>        msgs.append([group, host, level, status, subject, detail])<br>    <span class="hljs-keyword">elif</span> post_data[<span class="hljs-string">&quot;notify_groups_obj&quot;</span>]:<br>        <span class="hljs-keyword">for</span> notify_group <span class="hljs-keyword">in</span> post_data[<span class="hljs-string">&quot;notify_groups_obj&quot;</span>]:<br>            group = notify_group[<span class="hljs-string">&quot;name&quot;</span>]<br>            msgs.append([group, host, level, status, subject, detail])<br>    <span class="hljs-keyword">else</span>:<br>        msgs.append([group, host, level, status, subject, detail])<br>    <span class="hljs-keyword">return</span> msgs<br></code></pre></td></tr></table></figure>
 
 <p>3、个人定制化告警 –夜莺告警系统原生支持邮件，企微机器人告警，通过夜莺告警系统的notify功能改造实现sms，voice，wxapp 多种告警方式的接入，实现个人用户可视化监控报警配置。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br></pre></td><td class="code"><pre><span class="line">@classmethod</span><br><span class="line">def send_wxapp(cls, payload):</span><br><span class="line">    rule_name = payload.get(&#x27;event&#x27;).get(&quot;rule_name&quot;)</span><br><span class="line">    rule_note = payload.get(&#x27;event&#x27;).get(&quot;rule_note&quot;)</span><br><span class="line">    severity = payload.get(&#x27;event&#x27;).get(&quot;severity&quot;)</span><br><span class="line">    notify_cur_number =payload.get(&#x27;event&#x27;).get(&quot;notify_cur_number&quot;)</span><br><span class="line">    trigger_time = payload.get(&#x27;event&#x27;).get(&quot;trigger_time&quot;)</span><br><span class="line">    dt_trigger_time = datetime.datetime.fromtimestamp(trigger_time)</span><br><span class="line">    tags=payload.get(&#x27;event&#x27;).get(&quot;tags&quot;)</span><br><span class="line">    host=&quot;None&quot;</span><br><span class="line">    for h in tags:</span><br><span class="line">        if &quot;host&quot; in h:</span><br><span class="line">            host=h</span><br><span class="line">    rule_status = &quot;已恢复&quot; if payload.get(&#x27;event&#x27;).get(&quot;is_recovered&quot;) else &quot;故障中&quot;</span><br><span class="line">    rule_content = f&quot;告警等级:S&#123;severity&#125;\n告警主题:&#123;rule_name&#125;\n告警时间:&#123;dt_trigger_time&#125;\n主机:&#123;host&#125;\n告警详情:&#123;rule_note&#125;\n当前状态:&#123;rule_status&#125;(第&#123;notify_cur_number&#125;次触发)&quot;</span><br><span class="line">    users = payload.get(&#x27;event&#x27;).get(&quot;notify_users_obj&quot;)</span><br><span class="line">    usernames=&quot;&quot;</span><br><span class="line">    for u in users:</span><br><span class="line">        if u.get(&quot;username&quot;):</span><br><span class="line">            usernames=usernames + &quot;,&quot; + u.get(&quot;username&quot;)</span><br><span class="line">    if usernames:</span><br><span class="line">        logging.info(&quot;start send_wxapp, usernames:&#123;&#125; content:&#123;&#125;,&quot;.format(usernames, rule_content))</span><br><span class="line">        #logging.info(&quot;&#123;&#125; &#123;&#125; &#123;&#125;&quot;.format(send_wxapp,usernames,rule_content))</span><br><span class="line">        f = os.popen(&#x27;&#x27;&#x27;&#123;&#125; &#123;&#125; &quot;&#123;&#125;&quot; &#x27;&#x27;&#x27;.format(send_wxapp, usernames, rule_content), &quot;r&quot;)</span><br><span class="line">        logging.info(f.read())</span><br><span class="line">        f.close()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">@classmethod</span><br><span class="line">def send_sms(cls, payload):</span><br><span class="line">    rule_name = payload.get(&#x27;event&#x27;).get(&quot;rule_name&quot;)</span><br><span class="line">    rule_note = payload.get(&#x27;event&#x27;).get(&quot;rule_note&quot;)</span><br><span class="line">    rule_status = &quot;已恢复&quot; if payload.get(&#x27;event&#x27;).get(&quot;is_recovered&quot;) else &quot;故障中&quot;</span><br><span class="line">    rule_content = f&quot;&#123;rule_name&#125;: &#123;rule_note&#125;, 当前状态: &#123;rule_status&#125;&quot;</span><br><span class="line">    users = payload.get(&#x27;event&#x27;).get(&quot;notify_users_obj&quot;)</span><br><span class="line">    phones = &#123;&#125;</span><br><span class="line">    for u in users:</span><br><span class="line">        if u.get(&quot;phone&quot;):</span><br><span class="line">            phones[u.get(&quot;phone&quot;)] = 1</span><br><span class="line">    if phones:</span><br><span class="line">        logging.info(&quot;start send_sms, content:&#123;&#125;,  phones:&#123;&#125;&quot;.format(rule_content, phones.keys()))</span><br><span class="line">        for mobile_phone in phones.keys():</span><br><span class="line">            logging.info(&quot;&#123;&#125; &#123;&#125; &#123;&#125;&quot;.format(send_sms, mobile_phone, rule_content))</span><br><span class="line">            f = os.popen(&#x27;&#x27;&#x27;&#123;&#125; &#123;&#125; &quot;&#123;&#125;&quot; &#x27;&#x27;&#x27;.format(send_sms, mobile_phone, rule_content), &quot;r&quot;)</span><br><span class="line">            logging.info(f.read())</span><br><span class="line">            f.close()</span><br><span class="line"></span><br><span class="line">@classmethod</span><br><span class="line">def send_voice(cls, payload):</span><br><span class="line">    rule_name = payload.get(&#x27;event&#x27;).get(&quot;rule_name&quot;)</span><br><span class="line">    users = payload.get(&#x27;event&#x27;).get(&quot;notify_users_obj&quot;)</span><br><span class="line">    phones = &#123;&#125;</span><br><span class="line">    for u in users:</span><br><span class="line">        if u.get(&quot;phone&quot;):</span><br><span class="line">            phones[u.get(&quot;phone&quot;)] = 1</span><br><span class="line">    if phones:</span><br><span class="line">        logging.info(&quot;begin send_voice not implemented, phones: &#123;&#125;&quot;.format(phones.keys()))</span><br><span class="line">        for mobile_phone in phones.keys():</span><br><span class="line">            logging.info(&quot;&#123;&#125; &#123;&#125; &#123;&#125;&quot;.format(send_voice, mobile_phone, rule_name))</span><br><span class="line">            f = os.popen(&#x27;&#x27;&#x27;&#123;&#125; &#123;&#125; &quot;&#123;&#125;&quot; &#x27;&#x27;&#x27;.format(send_voice, mobile_phone, rule_name), &quot;r&quot;)</span><br><span class="line">            logging.info(f.read())</span><br><span class="line">            f.close()</span><br></pre></td></tr></table></figure>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br></pre></td><td class="code"><pre><code class="hljs less"><span class="hljs-variable">@classmethod</span><br>def <span class="hljs-built_in">send_wxapp</span>(cls, payload):<br>    rule_name = payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;rule_name&quot;</span>)<br>    rule_note = payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;rule_note&quot;</span>)<br>    severity = payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;severity&quot;</span>)<br>    notify_cur_number =payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;notify_cur_number&quot;</span>)<br>    trigger_time = payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;trigger_time&quot;</span>)<br>    dt_trigger_time = datetime.datetime.<span class="hljs-built_in">fromtimestamp</span>(trigger_time)<br>    tags=payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;tags&quot;</span>)<br>    host=<span class="hljs-string">&quot;None&quot;</span><br>    for h in <span class="hljs-attribute">tags</span>:<br>        if <span class="hljs-string">&quot;host&quot;</span> in <span class="hljs-attribute">h</span>:<br>            host=h<br>    rule_status = <span class="hljs-string">&quot;已恢复&quot;</span> if payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;is_recovered&quot;</span>) else <span class="hljs-string">&quot;故障中&quot;</span><br>    rule_content = f<span class="hljs-string">&quot;告警等级:S&#123;severity&#125;\n告警主题:&#123;rule_name&#125;\n告警时间:&#123;dt_trigger_time&#125;\n主机:&#123;host&#125;\n告警详情:&#123;rule_note&#125;\n当前状态:&#123;rule_status&#125;(第&#123;notify_cur_number&#125;次触发)&quot;</span><br>    users = payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;notify_users_obj&quot;</span>)<br>    usernames=<span class="hljs-string">&quot;&quot;</span><br>    for u in <span class="hljs-attribute">users</span>:<br>        if u.<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;username&quot;</span>):<br>            usernames=usernames + <span class="hljs-string">&quot;,&quot;</span> + u.<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;username&quot;</span>)<br>    if <span class="hljs-attribute">usernames</span>:<br>        logging.<span class="hljs-built_in">info</span>(<span class="hljs-string">&quot;start send_wxapp, usernames:&#123;&#125; content:&#123;&#125;,&quot;</span>.<span class="hljs-built_in">format</span>(usernames, rule_content))<br>        #logging.<span class="hljs-built_in">info</span>(<span class="hljs-string">&quot;&#123;&#125; &#123;&#125; &#123;&#125;&quot;</span>.<span class="hljs-built_in">format</span>(send_wxapp,usernames,rule_content))<br>        f = os.<span class="hljs-built_in">popen</span>(<span class="hljs-string">&#x27;&#x27;</span><span class="hljs-string">&#x27;&#123;&#125; &#123;&#125; &quot;&#123;&#125;&quot; &#x27;</span><span class="hljs-string">&#x27;&#x27;</span>.<span class="hljs-built_in">format</span>(send_wxapp, usernames, rule_content), <span class="hljs-string">&quot;r&quot;</span>)<br>        logging.<span class="hljs-built_in">info</span>(f.<span class="hljs-built_in">read</span>())<br>        f.<span class="hljs-built_in">close</span>()<br><br><br><br><span class="hljs-variable">@classmethod</span><br>def <span class="hljs-built_in">send_sms</span>(cls, payload):<br>    rule_name = payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;rule_name&quot;</span>)<br>    rule_note = payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;rule_note&quot;</span>)<br>    rule_status = <span class="hljs-string">&quot;已恢复&quot;</span> if payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;is_recovered&quot;</span>) else <span class="hljs-string">&quot;故障中&quot;</span><br>    rule_content = f<span class="hljs-string">&quot;&#123;rule_name&#125;: &#123;rule_note&#125;, 当前状态: &#123;rule_status&#125;&quot;</span><br>    users = payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;notify_users_obj&quot;</span>)<br>    phones = &#123;&#125;<br>    for u in <span class="hljs-attribute">users</span>:<br>        if u.<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;phone&quot;</span>):<br>            phones[u.<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;phone&quot;</span>)] = <span class="hljs-number">1</span><br>    if <span class="hljs-attribute">phones</span>:<br>        logging.<span class="hljs-built_in">info</span>(<span class="hljs-string">&quot;start send_sms, content:&#123;&#125;,  phones:&#123;&#125;&quot;</span>.<span class="hljs-built_in">format</span>(rule_content, phones.<span class="hljs-built_in">keys</span>()))<br>        for mobile_phone in phones.<span class="hljs-built_in">keys</span>():<br>            logging.<span class="hljs-built_in">info</span>(<span class="hljs-string">&quot;&#123;&#125; &#123;&#125; &#123;&#125;&quot;</span>.<span class="hljs-built_in">format</span>(send_sms, mobile_phone, rule_content))<br>            f = os.<span class="hljs-built_in">popen</span>(<span class="hljs-string">&#x27;&#x27;</span><span class="hljs-string">&#x27;&#123;&#125; &#123;&#125; &quot;&#123;&#125;&quot; &#x27;</span><span class="hljs-string">&#x27;&#x27;</span>.<span class="hljs-built_in">format</span>(send_sms, mobile_phone, rule_content), <span class="hljs-string">&quot;r&quot;</span>)<br>            logging.<span class="hljs-built_in">info</span>(f.<span class="hljs-built_in">read</span>())<br>            f.<span class="hljs-built_in">close</span>()<br><br><span class="hljs-variable">@classmethod</span><br>def <span class="hljs-built_in">send_voice</span>(cls, payload):<br>    rule_name = payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;rule_name&quot;</span>)<br>    users = payload.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;event&#x27;</span>).<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;notify_users_obj&quot;</span>)<br>    phones = &#123;&#125;<br>    for u in <span class="hljs-attribute">users</span>:<br>        if u.<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;phone&quot;</span>):<br>            phones[u.<span class="hljs-built_in">get</span>(<span class="hljs-string">&quot;phone&quot;</span>)] = <span class="hljs-number">1</span><br>    if <span class="hljs-attribute">phones</span>:<br>        logging.<span class="hljs-built_in">info</span>(<span class="hljs-string">&quot;begin send_voice not implemented, phones: &#123;&#125;&quot;</span>.<span class="hljs-built_in">format</span>(phones.<span class="hljs-built_in">keys</span>()))<br>        for mobile_phone in phones.<span class="hljs-built_in">keys</span>():<br>            logging.<span class="hljs-built_in">info</span>(<span class="hljs-string">&quot;&#123;&#125; &#123;&#125; &#123;&#125;&quot;</span>.<span class="hljs-built_in">format</span>(send_voice, mobile_phone, rule_name))<br>            f = os.<span class="hljs-built_in">popen</span>(<span class="hljs-string">&#x27;&#x27;</span><span class="hljs-string">&#x27;&#123;&#125; &#123;&#125; &quot;&#123;&#125;&quot; &#x27;</span><span class="hljs-string">&#x27;&#x27;</span>.<span class="hljs-built_in">format</span>(send_voice, mobile_phone, rule_name), <span class="hljs-string">&quot;r&quot;</span>)<br>            logging.<span class="hljs-built_in">info</span>(f.<span class="hljs-built_in">read</span>())<br>            f.<span class="hljs-built_in">close</span>()<br></code></pre></td></tr></table></figure>
 
 
-<p>改造后架构<br><img src="/uploads/qe1313131/images/m_9f4ff6bf66330f14ccaf40ccd472743a_r.png"></p>
+<p>改造后架构<br><img src="/uploads/qe1313131/images/m_9f4ff6bf66330f14ccaf40ccd472743a_r.png" srcset="/img/loading.gif" lazyload></p>
 <h2 id="夜莺监控系统的简单使用"><a href="#夜莺监控系统的简单使用" class="headerlink" title="夜莺监控系统的简单使用"></a>夜莺监控系统的简单使用</h2><p>经过上述的介绍及改造流程，终于到了使用阶段，这里主要给大家介绍一下最重要也是最常用告警使用部分<br>目前告警有两种方案：<br>一种兼容当前运维部使用的告警中心告警。即每个部门的告警中心群。一般情况下服务器的通用告警会发送到这个群<br>还有一种是通过夜莺监控系统自身的告警发送。支持自定义告警通知方式，合作方私有云告警采用此方案，也支持个人及项目组使用。<br>两种方案均支持企业微信，短信，电话多级告警。下面详细说明如何告警</p>
 <h4 id="一-告警中心方案"><a href="#一-告警中心方案" class="headerlink" title="一.告警中心方案"></a>一.告警中心方案</h4><p><strong>此告警方案需要有对应大组账号才能告警。<br>三级告警会通知给对应告警群，<br>二级告警会发送短信给群里所有同事，<br>一级告警会电话通知给群里所有同事。</strong></p>
-<p><strong>群告警通知样例</strong><br><img src="/uploads/qe1313131/images/m_0a94b6829eab2583af814fedafdfec1f_r.png"></p>
-<p><strong>告警规则配置</strong><br><img src="/uploads/qe1313131/images/m_c7109447e8a68aafb5b37049ef2f651c_r.png"></p>
-<p><img src="/uploads/qe1313131/images/m_2b16de847506e4eb38af9e7dc1d36f00_r.png"></p>
+<p><strong>群告警通知样例</strong><br><img src="/uploads/qe1313131/images/m_0a94b6829eab2583af814fedafdfec1f_r.png" srcset="/img/loading.gif" lazyload></p>
+<p><strong>告警规则配置</strong><br><img src="/uploads/qe1313131/images/m_c7109447e8a68aafb5b37049ef2f651c_r.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="/uploads/qe1313131/images/m_2b16de847506e4eb38af9e7dc1d36f00_r.png" srcset="/img/loading.gif" lazyload></p>
 <h4 id="二-夜莺监控告警"><a href="#二-夜莺监控告警" class="headerlink" title="二.夜莺监控告警"></a>二.夜莺监控告警</h4><p><strong>夜莺监控告警支持企微机器人，邮箱，短信，电话多种通知渠道<br>首先有单独告警需求的话请先向运维同学申请账号。运维同学请创建新用户及新团队，加入对应业务组即可</strong></p>
-<p><strong>告警样式示例</strong><br><img src="/uploads/qe1313131/images/m_d5b418c37b2c8f0ef243a854cc4f54a3_r.png"></p>
-<p><strong>告警规则配置：<br>第一步，请在个人中心配置通知渠道信息</strong><br><img src="/uploads/qe1313131/images/m_1bfe23f62afc129df24992b61f4fab3d_r.png"></p>
-<p><strong>第二步，告警规则配置</strong><br><img src="/uploads/qe1313131/images/m_4f5336864eb0ee119f2d0d0ea1334f73_r.png"><br><img src="/uploads/qe1313131/images/m_0504cb60be3dfc95aa533f896d08d05c_r.png"></p>
-<p><img src="/uploads/qe1313131/images/m_7dbc10c018a39961bde371bb9f4d9de0_r.png"></p>
-<p><strong>配置完成后可以在查询告警规则列表</strong><br><img src="/uploads/qe1313131/images/m_42c6af1decd093848ec8aedf14f6a9c9_r.png"><br><strong>活跃告警列表</strong><br><img src="/uploads/qe1313131/images/m_49eaaa59a2772821c993bddfa39dd933_r.png"><br><strong>历史告警列表</strong><br><img src="/uploads/qe1313131/images/m_8e11ffa1c511cc9f5df1146d9964a0b1_r.png"></p>
+<p><strong>告警样式示例</strong><br><img src="/uploads/qe1313131/images/m_d5b418c37b2c8f0ef243a854cc4f54a3_r.png" srcset="/img/loading.gif" lazyload></p>
+<p><strong>告警规则配置：<br>第一步，请在个人中心配置通知渠道信息</strong><br><img src="/uploads/qe1313131/images/m_1bfe23f62afc129df24992b61f4fab3d_r.png" srcset="/img/loading.gif" lazyload></p>
+<p><strong>第二步，告警规则配置</strong><br><img src="/uploads/qe1313131/images/m_4f5336864eb0ee119f2d0d0ea1334f73_r.png" srcset="/img/loading.gif" lazyload><br><img src="/uploads/qe1313131/images/m_0504cb60be3dfc95aa533f896d08d05c_r.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="/uploads/qe1313131/images/m_7dbc10c018a39961bde371bb9f4d9de0_r.png" srcset="/img/loading.gif" lazyload></p>
+<p><strong>配置完成后可以在查询告警规则列表</strong><br><img src="/uploads/qe1313131/images/m_42c6af1decd093848ec8aedf14f6a9c9_r.png" srcset="/img/loading.gif" lazyload><br><strong>活跃告警列表</strong><br><img src="/uploads/qe1313131/images/m_49eaaa59a2772821c993bddfa39dd933_r.png" srcset="/img/loading.gif" lazyload><br><strong>历史告警列表</strong><br><img src="/uploads/qe1313131/images/m_8e11ffa1c511cc9f5df1146d9964a0b1_r.png" srcset="/img/loading.gif" lazyload></p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>对于当前的夜莺监控系统，已经实现了在当前生产环境的稳定运行，统一汇总了各个prometheus的查询入口，基本代替了alertmanager，有了可视化的告警页面，实现了与当前告警网关的集成。提供个人定制化告警，将告警能力开放给所有开发同事，有效提高了运维效率。</p>
 
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>Nightnagle 夜莺告警系统</div>
+      <div>http://example.com/2023/08/31/Nightnagle-夜莺告警系统/</div>
     </div>
-
-    
-    
-    
-
-      <footer class="post-footer">
-
-        
-
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2023/08/30/hello-world/" rel="prev" title="Hello World">
-      <i class="fa fa-chevron-left"></i> Hello World
-    </a></div>
-      <div class="post-nav-item"></div>
-    </div>
-      </footer>
-    
-  </article>
-  
-  
-  
-
-
-
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>Beitragsautor</div>
+          <div>John Doe</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Veröffentlicht am</div>
+          <div>August 31, 2023</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>Urheberrechtshinweis</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
           </div>
-          
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
 
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2023/08/30/hello-world/" title="Hello World">
+                        <span class="hidden-mobile">Hello World</span>
+                        <span class="visible-mobile">Nächster</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>Inhaltsverzeichnis</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Suchen</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Stichwort</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
       }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
     }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
     });
-  }
+  });
 </script>
 
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
 
-  <aside class="sidebar">
-    <div class="sidebar-inner">
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
 
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          المحتويات
-        </li>
-        <li class="sidebar-nav-overview">
-          عام
-        </li>
-      </ul>
+  <script>Fluid.plugins.codeWidget();</script>
 
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Nightingale-%E5%A4%9C%E8%8E%BA%E4%B8%8E%E5%91%8A%E8%AD%A6%E7%B3%BB%E7%BB%9F"><span class="nav-number">1.</span> <span class="nav-text">Nightingale 夜莺与告警系统</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%80%89%E6%8B%A9%E5%A4%9C%E8%8E%BA%E7%9B%91%E6%8E%A7%E7%9A%84%E5%8E%9F%E5%9B%A0"><span class="nav-number">1.2.</span> <span class="nav-text">选择夜莺监控的原因</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84"><span class="nav-number">1.3.</span> <span class="nav-text">系统架构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB"><span class="nav-number">1.4.</span> <span class="nav-text">部署问题汇总</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%91%8A%E8%AD%A6%E4%BD%93%E7%B3%BB%E9%9B%86%E6%88%90%E6%94%B9%E9%80%A0"><span class="nav-number">1.5.</span> <span class="nav-text">告警体系集成改造</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%9C%E8%8E%BA%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8"><span class="nav-number">1.6.</span> <span class="nav-text">夜莺监控系统的简单使用</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%80-%E5%91%8A%E8%AD%A6%E4%B8%AD%E5%BF%83%E6%96%B9%E6%A1%88"><span class="nav-number">1.6.0.1.</span> <span class="nav-text">一.告警中心方案</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BA%8C-%E5%A4%9C%E8%8E%BA%E7%9B%91%E6%8E%A7%E5%91%8A%E8%AD%A6"><span class="nav-number">1.6.0.2.</span> <span class="nav-text">二.夜莺监控告警</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">1.7.</span> <span class="nav-text">总结</span></a></li></ol></li></ol></div>
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">John Doe</p>
-  <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">2</span>
-          <span class="site-state-item-name">المقالات</span>
-        </a>
-      </div>
-  </nav>
-</div>
-
-
-
-      </div>
-
-    </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2023</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
-</div>
-  <div class="powered-by">تطبيق الموقع <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
-  </div>
-
-        
-
-
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
 
   
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
 
-<script src="/js/utils.js"></script>
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
 
-<script src="/js/motion.js"></script>
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
 
 
-<script src="/js/schemes/muse.js"></script>
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
 
 
-<script src="/js/next-boot.js"></script>
 
 
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
 
 
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
+  <noscript>
+    <div class="noscript-warning">Blog funktioniert am besten mit aktiviertem JavaScript</div>
+  </noscript>
 </body>
 </html>
